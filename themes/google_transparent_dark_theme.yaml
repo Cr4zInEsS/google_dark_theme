@@ -10,6 +10,7 @@ Google Transparent Dark Theme:
   # Header:
   app-header-background-color: "#171717"
   app-header-text-color: "#BDC1C6"
+  ch-background: "rgba(23, 23, 23, 0.7)"
   # Main Interface Colors
   primary-color: "#5F9BEA"
   light-primary-color: var(--primary-color)
