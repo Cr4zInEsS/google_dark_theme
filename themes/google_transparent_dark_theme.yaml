@@ -15,7 +15,7 @@ Google Transparent Dark Theme:
   primary-color: "#5F9BEA"
   light-primary-color: var(--primary-color)
   primary-background-color: "#171717"
-  secondary-background-color: var(--primary-background-color)
+  secondary-background-color: "#202124"
   divider-color: var(--primary-background-color)
   # Text
   primary-text-color: "#BDC1C6"
@@ -49,7 +49,7 @@ Google Transparent Dark Theme:
   label-badge-gray: "#5F6267"
 
   # Cards
-  ha-card-border-radius: "15px"
+  ha-card-border-radius: "10px"
   ha-card-box-shadow: 1px 1px 5px 0px rgb(12, 12, 14)
   paper-card-background-color: "rgba(32, 33, 36, 0.75)"
   paper-listbox-background-color: "#202124"
@@ -67,3 +67,7 @@ Google Transparent Dark Theme:
   table-row-background-color: var(--primary-background-color)
   table-row-alternative-background-color: var(--secondary-background-color)
   data-table-background-color: var(--primary-background-color)
+  # Dropdowns
+  material-background-color: var(--secondary-background-color)
+  material-secondary-background-color: var(--primary-background-color)
+  mdc-theme-surface: var(--secondary-background-color)
