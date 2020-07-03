@@ -49,11 +49,12 @@ Google Transparent Dark Theme:
   label-badge-gray: "#5F6267"
 
   # Cards
+  card-background-color: "#202124"
   ha-card-border-radius: "10px"
   ha-card-box-shadow: 1px 1px 5px 0px rgb(12, 12, 14)
-  paper-dialog-background-color: "rgba(32, 33, 36, 0.75)"
-  paper-card-background-color: var(--paper-dialog-background-color)
-  paper-listbox-background-color: var(--paper-dialog-background-color)
+  paper-dialog-background-color: var(--card-background-color)
+  paper-card-background-color: var(--card-background-color)
+  paper-listbox-background-color: var(--card-background-color)
   # Switches
   switch-checked-button-color: "#5F9BEA"
   switch-checked-track-color: "#404D64"
@@ -72,3 +73,5 @@ Google Transparent Dark Theme:
   material-background-color: var(--secondary-background-color)
   material-secondary-background-color: var(--primary-background-color)
   mdc-theme-surface: var(--secondary-background-color)
+  # HACS
+  hacs-chip-background-color: var(--primary-color)
